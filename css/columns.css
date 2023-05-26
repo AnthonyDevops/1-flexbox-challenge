@@ -1,0 +1,34 @@
+ul {
+    list-style: none;
+    width: 75vw;
+
+ }
+   .flex-container{
+    width:75vw;
+    height:50vh;    
+    display:flex;
+    flex-direction:row;
+    
+
+   /*aligns flex items main axis*/
+   justify-content:space-between;
+   
+   /*aligns flex items across cross axis*/ 
+   align-items:center;
+   flex-wrap: wrap;
+}
+
+
+li {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(245, 173, 41);
+
+}
+    .flex-item{
+    background-color:rgb(245, 173, 41);
+    flex: 0.5;
+    height:100%;
+    max-width: 30%;
+    
+}
